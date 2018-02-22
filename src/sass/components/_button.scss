@@ -1,0 +1,26 @@
+/* BOTONES */
+
+%btn-generico {
+    border: 1px solid $color-background;
+    color: $color-text-button;
+    display: inline-block;
+    padding: 5px;
+    height: $button-height;
+    min-width: $button-min-width;
+    background-color: $color-primary;
+    @include border-radius(15px);
+
+    // nesting
+    &:hover {
+        background-color: $color-accent;
+    }
+}
+
+.btn {
+    @extend %btn-generico;
+}
+
+.btn-error {
+    @extend %btn-generico;
+    background-color: $color-error;
+}

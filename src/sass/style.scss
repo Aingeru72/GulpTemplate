@@ -1,0 +1,11 @@
+// Archivo base de estilos
+
+@import 'reset';
+@import 'colors';
+@import 'tags';
+@import 'dimens';
+@import 'mixins';    // Funciones
+
+// Layouts
+@import 'layouts/content';
+@import 'components/button';

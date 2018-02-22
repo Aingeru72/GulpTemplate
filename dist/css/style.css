@@ -1,0 +1,49 @@
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*COLORES*/
+/*TAGS HTML*/
+header {
+  background-color: indigo;
+}
+
+/* Cabeceras */
+h1 {
+  color: aliceblue;
+  margin-top: 0;
+  padding: 20px 10px;
+}
+
+/* DIMENSIONES */
+/* FUNCIONES */
+/* CONTENT */
+.container {
+  margin: auto;
+  max-width: 1024px;
+}
+
+/* BOTONES */
+.btn, .btn-error {
+  border: 1px solid indigo;
+  color: aliceblue;
+  display: inline-block;
+  padding: 5px;
+  height: 50px;
+  min-width: 100px;
+  background-color: teal;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+}
+
+.btn:hover, .btn-error:hover {
+  background-color: orangered;
+}
+
+.btn-error {
+  background-color: red;
+}
